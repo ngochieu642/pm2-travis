@@ -1,4 +1,4 @@
-FROM arm32v7/node:8.17.0-alpine3.11
+FROM node:8.17.0-alpine3.11
 
 # Install pm2
 RUN npm install pm2 -g
